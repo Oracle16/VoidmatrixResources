@@ -2,10 +2,10 @@ File Credits:
 
 
 Ganix:
-./beta_tweaking_map.png
-./Cascading.gif
+./Files/beta_tweaking_map.png
+./Files/Cascading.gif
 
 RETIRE:
-./CompleteVoidGuide.pdf
-./Working-Copy.lua
-
+./Files/CompleteVoidGuide.pdf
+./Files/Working-Copy.lua
+./Files/Mapdata_v2.docx
