@@ -1,6 +1,7 @@
 Links:
 
 Discord Server: https://discord.gg/prUAgd5
+Decompilation of Pokemon Diamond: https://github.com/martmists/pokediamond
 Cut content: https://tcrf.net/Pok%C3%A9mon_Diamond_and_Pearl
 GLC Forum: https://www.glitchcity.info/wiki/Category:Generation_IV_glitches
 Routes: https://discord.gg/PEb5rcR
