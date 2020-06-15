@@ -14,6 +14,7 @@ What is the Void/Void Guide: ./Files/CompleteVoidGuide.pdf
 Tweaking Map: ./Files/beta_tweaking_map.png
 Mapdata: ./Files/Mapdata_v2.0.docx
 DP Cascading Gif: ./Files/Cascading.gif
+Matrix Map: ./Files/Matrix_map_correspondance.txt
 RSFDCollision3 (Void.lua, need to get latest version of script from RETIRE): ./Files/Working-Copy.lua
 Lua51 (x64) (64 bit version for Desmume lua scripts, rename the file to lua51): ./Files/lua51 (x64).dll
 Lua51 (x86) (32 bit version for Desmume lua scripts, rename the file to lua51): ./Files/lua51 (x86).dll
