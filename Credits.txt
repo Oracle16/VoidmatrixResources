@@ -12,3 +12,7 @@ RETIRE:
 
 MAP:
 ./Files/Matrix_map_correspondance.txt
+./Files/map7.lua
+
+MKDasher:
+./Files/void.lua
