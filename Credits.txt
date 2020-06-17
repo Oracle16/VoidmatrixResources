@@ -7,12 +7,14 @@ Ganix:
 
 RETIRE:
 ./Files/CompleteVoidGuide.pdf
-./Files/Working-Copy.lua
+./Files/RSFDCollision3.lua
 ./Files/Mapdata_v2.docx
+./Files/Arbitrary_Script_Calling_wip.pdf
 
 MAP:
 ./Files/Matrix_map_correspondance.txt
 ./Files/map7.lua
+./Files/ultimateRNG.lua
 
 MKDasher:
 ./Files/void.lua

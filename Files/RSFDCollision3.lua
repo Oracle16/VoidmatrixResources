@@ -12,14 +12,33 @@
 ---------------------------------------------
 jump = 31 --teleportamount by default 
 modoption = 15
-local mapId = {
+tilename = {"nothing","nothing","Grass","Grass","4","5","6","7","Cave","9","10", "HauntH","CaveW","13","14","15",
+			"Pond","Water","Water","WaterF","Water","Water","Puddle","ShallW","24","Water","26","27","28","29","30","31",
+			"ice","Sand","Water","35","Grass?","37","38","39","40","41","Water","43","44","45","46","47",
+			"Chair","Chair","50","51","52","53","54","55","LedgeR","LedgeL","LedgeU","LedgeD","60","61","62","63",
+			"SpinR","SpinL","SpinU","SpinD","68","69","70","71","72","Stair","74","RockCVert","RockCHor","77","78","79",
+			"Water","Water","Water","Water","84","85","HightM","HightM","HightM","HightM","90","91","92","93","Warp","Warp",
+			"Warp","Warp","Doormat","Doormat","Doormat","Doormat","Warp","Warp","Warp","Warp","Warp","Warp","Warp","Warp","Warp","Warp",
+			"StartBr","BridgeNul","BridgeCave","BridgeWat","Bridge?","BridgeSn","BikeBr","BikeBr?","BikeBr","BikeBr","BikeBr","BBridgeEnc","BikeBr?","BikeBr","126","127",
+			"Counter","129","130","PC","132","Map","Television","135","Bookcases","137","138","139","140","141","Book","143",
+			"144","145","146","147","148","149","150","151","152","153","154","155","156","157","158","159",
+			"Soil","SnowSp2","SnowSp1","SnowSp0","Mud","MudBlock","MudGr","MudGrBlock","Snow","MeltSnow","170","171","172","173","174","175",
+			"176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191",
+			"192","193","194","195","196","197","198","199","200","201","202","203","204","205","206","207",
+			"208","209","210","211","212","213","214","BikeLR","BikeLL","SlopeTop","SlopeBot","bikeStall","220","221","222","223",
+			"Bookcases","Bookcases","Bookcases","227","ThrashBin","Obj","230","231","232","233","234","235","236","237","238","239",
+			"240","241","242","243","244","245","246","247","248","249","250","251","252","253","254","Void"
+			}
+			
+			
+			local mapId = {
 	Highlight = {
 		color = '#f7bbf3',
-		number = {497,188,308,363,493,308,307,306,305}
+		number = {212}
 	},
 	Highlight2= {
 		color = '#F8540',
-		number = {}
+		number = {210,211,347}--228,235,236,242
 	},
 	MysteryZone = {
 		color = '#88888866',
@@ -58,164 +77,102 @@ local mapId = {
 }
 
 local CollisionId = {
-	--Astro Huey on YouTube
     Custom = {
         color = '#f7bbf3',
         number = {}
     },
-    Void = {
-        color = '#042920',
-        number = {0xFF}
-    },
---[[	Television = {
-        color = '#103888',
-        number = {0x86}
-    },
-]]--
-	WarpVert = {
-        color = '#bd9339',
-        number = {0x6E,0x6F}
-    },
-	WarpHori = {
-        color = '#5b4a25',
-        number = {0x6C,0x6D}
-    },
-	DoorMat = {
-        color = '#f04030',
-        number = {0x62,0x63,0x64,0x65}
-    },
-	Escalators = {
-        color = '#ef634a',
-        number = {0x6A}
-	},
-	Stairs = {
-        color = '#ef634a',
-        number = {0x5E,0x5F,0x6B}
-    },
-	PC = {
-        color = '#00a4ff',
-        number = {0x83}
-	},
-	Door = {
-		color = '#e7ae13',
-		number = {0x69}
-	},
-	Warptile = {
-		color = '#3ba239',
-		number = {0x66,0x67,0x68,0x6A}
-	},
-	Countertop = {
-		color = '#424a7b',
-		number = {0x80}
-	},
     Grass = {
         color = '#2ac615',
-        number = {0x2,0x3,0x24}
+        number = {0x2}
     },
-    Ledge = {
-        color = '#372626',
-        number = {0x38,0x39,0x3B}
+    TallGrass = {
+        color = '#2aa615',
+        number = {0x3}		
+	},
+    Cave = {
+        color = '#9F80',
+        number = {0x8}
+	},
+    HauntedHouse = {
+        color = '#A292BC',
+        number = {0xB}
     },
-    BikePath = {
-        color = '#d0c880',
-        number = {0x76,0x7A,0x79,0x7D}
-    },
-    BikeRamp = {
-        color = '#785c40',
-        number = {0xD7,0xD8}
-	},
-	SloppyTop = {
-		color = '#cc9933',
-		number = {0xD9}
-	},
-	SloppyBot = {
-		color = '#7f6f3a',
-		number = {0xDA}
-	},
-	Spinner = {
-		color = '#8c312c',
-		number = {0x40,0x41,0x42,0x43}
-	},
     Water = {
-        color = '#1371d4',
-        number = {0x10,0x13,0x15}
-    },
-	LittleWater = {
-        color = '#8c96b6',
-        number = {0x16,0x17}
+        color = '#238cdc',
+        number = {0x10,0x13,0x15,0x16,0x17}
     },
     Ice = {
         color = '#56b3e0',
-        number = {0x20}
+        number = {0x20,0x20}
     },
     Sand = {
         color = 'yellow',
-        number = {0x21}
+        number = {0x21,0x21}
 	},
     Ledge = {
         color = '#D3A',
-        number = {0x38,0x39,0x3B}
+        number = {0x38,0x39,0x3A,0x3B,0x3C,0x3D,0x3E,0x3F}
     },
-    Snow = {
-        color = '#cde4ff',
-        number = {0xA8}
+    RockClimb = {
+        color = '#C76',
+        number = {0x4B,0x4C}
+    },
+    Bridge = {
+        color = '#C79',
+        number = {0x70,0x71,0x72,0x73,0x74,0x75,}
+	},
+    BridgeBike = {
+        color = '#C7A55',
+        number = {0x76,0x77,0x78,0x79,0x7A,0x7B,0x7C,0x7D}
+	},
+    Berrysoil = {
+        color = '#b2703',
+        number = {0xA0}
     },
     SnowSlow = {
-        color = '#859ebc',
+        color = '#8da9cb',
         number = {0xA1}
     },
     Snow2xSlow = {
-        color = '#4d75a3',
+        color = '#6483a7',
         number = {0xA2}
     },
     Snow3xslow = {
-        color = '#234369',
+        color = '#52749d',
         number = {0xA3}
 	},
-	Mud = {
-        color = '#706850',
+    Mud = {
+        color = '#92897',
         number = {0xA4}
     },
     StuckMud = {
-        color = '#383428',
+        color = '#92704',
         number = {0xA5}
     },
     GrassMud = {
-        color = '#287d53',
+        color = '#4090',
         number = {0xA6}
     },
     GrassMudStuck = {
-        color = '#174337',
+        color = '#55906',
         number = {0xA7}
+	},
+    Snow = {
+        color = '#b9d0eb',
+        number = {0xA8}
+	},
+    BikeRamp = {
+        color = '#B890',
+        number = {0xD7,0xD8}
+	},
+    Quicksand = {
+        color = '#A880',
+        number = {0xD9,0xDA}
     },
-	Cave = {
-		color = '#404058',
-		number = {0x8}
-	},
-	RockClimb = {
-		color = '#2c241c',
-		number = {0x4B,0x4C}
-	},
-	Floats = {
-		color = '#c8b058',
-		number = {0x56,0x57,0x58}
-	},
-	GymFloors = {
-		color = '#adadad',
-		number = {0x59}
-	},
-	HauntedHouse = {
-		color = '#A292BC',
-		number = {0xB}
-	},
-	Bridge = {
-		color = '#233a4a',
-		number = {0x70,0x71,0x72,0x73,0x74,0x75}
-	},
     Normal = {
         color = '#88888866',
         number = {}
-    },
+    }
 }
 ------------------------
 DebugOffs = 0x0
@@ -240,7 +197,7 @@ end
 if id == 0x41 then										-- Pokemon D/P
 	OffsArray = {0x1454,0x24AA4,0x23CC4,0x24BC0,0x248F0,
 				0x75F4,0x23CBC,0x23CB8,0x22ADA,0x3E924,
-				0x1384,0x57708,0x229F0 }	
+				0x1384,0x57708,0x229F0}	
 	AddrArray = {0x2056C06, 0x223C1F4} 
 	LanguageArray = {0x00}
 	
@@ -375,7 +332,7 @@ local rshift, lshift=bit.rshift, bit.lshift
 local Loadlines_view = false
 local Grid_view = false
 local CustomWarp = false
-local Map = false
+local Map = true
 local InfRepel = false
 local Trigger = false 
 local NPC = false
@@ -388,8 +345,9 @@ local teleport1 = true
 local mapediting = false
 local demostop = true
 local flycursor = false
-local Collision = true 
-local temps7 = false
+local Collision = false 
+local chunkediting = false
+local collisionediting = false 
 local temps8 = false
 local temps9 = false
 local temps10 = false
@@ -535,7 +493,7 @@ function updateTab()
 			elseif isCoordInBox(x, y, {menu_box[1] + 85, menu_box[2] + 78, menu_box[1] + 97, menu_box[2] + 90}) then
 				Collision = not Collision
 			elseif isCoordInBox(x, y, {menu_box[1] + 85, menu_box[2] + 98, menu_box[1] + 97, menu_box[2] + 110}) then
-				temps7 = not temps7
+				chunkediting = not chunkediting
 			elseif isCoordInBox(x, y, {menu_box[1] + 85, menu_box[2] + 118, menu_box[1] + 97, menu_box[2] + 130}) then
 				temps8 = not temps8
 			elseif isCoordInBox(x, y, {menu_box[1] + 85, menu_box[2] + 138, menu_box[1] + 97, menu_box[2] + 150}) then
@@ -655,7 +613,7 @@ function printSettingsMenu2()
 		deactivated_clr = "#00000055"
 		clr = {}
 		
-		CheckAddr = {PerfectCatch,teleport1,mapediting,demostop,flycursor,Collision,temps7,temps8,temps9,temps10}
+		CheckAddr = {PerfectCatch,teleport1,mapediting,demostop,flycursor,Collision,chunkediting,temps8,temps9,temps10}
 		for i = 1,10 do
 		if CheckAddr[i] then
 			clr[i] = activated_clr
@@ -686,7 +644,7 @@ function printSettingsMenu2()
 		gui.text(menu_box[1] + 101, menu_box[2] + 81, "Collision")
 		
 		gui.box(menu_box[1] + 85, menu_box[2] + 98, menu_box[1] + 97, menu_box[2] + 110, clr[7], "#ffffffff")
-		gui.text(menu_box[1] + 101, menu_box[2] + 101, "temps7")
+		gui.text(menu_box[1] + 101, menu_box[2] + 101, "chunkediting")
 		
 		gui.box(menu_box[1] + 85, menu_box[2] + 118, menu_box[1] + 97, menu_box[2] + 130, clr[8], "#ffffffff")
 		gui.text(menu_box[1] + 101, menu_box[2] + 121, "temps8")
@@ -834,10 +792,17 @@ end
 	else 
 	jumpcolor = 'yellow'
 	end 
+	
+	if collisionediting then
+	collisioncolor = 'red'
+	else 
+	collisioncolor = 'yellow'
+	end 
 	gui.text(menu_box[1] + 50, menu_box[2] + 38, "Map: "..(LiveMapId)..","..fmt4(LiveMapId),mapcolor)
 	gui.text(menu_box[1] + 50, menu_box[2] + 48, "Jump: "..(jump)..","..fmt4(jump),jumpcolor)
+	gui.text(menu_box[1] + 140, menu_box[2] + 18, "Tile: "..(tilename[currenttile+1])..","..fmt2(currenttile),'yellow')
+	--gui.text(menu_box[1] + 50, menu_box[2] + 58, "Chunk: "..(CurrentChunkv)..","..fmt2(CurrentChunkv),collisioncolor)
 	--gui.text(menu_box[1] + 95, menu_box[2] + 2, (Repelsteps),'yellow')
-	
 end 
 
 function updateLayout()
@@ -1324,13 +1289,18 @@ end
 function CollisionMap()
 if Collision then 
 Tiledatapointer = memory.readdword(base+OffsArray[13])
-CurrentChunkvAddr = Tiledatapointer + 0xAC
-CurrentChunkv = memory.readbyte(CurrentChunkvAddr)
+CurrentChunkvAddr = Tiledatapointer + 0xAD
+if chunkediting then 
+else 
+CurrentChunkvword = memory.readword(CurrentChunkvAddr-1)
+CurrentChunkv = (CurrentChunkvword %0x10)
+end 
 CurrentChunkpointer = Tiledatapointer + 0x90 + 0x4*CurrentChunkv
 CurrentChunk = memory.readdword(CurrentChunkpointer)
---debug gui.text (50,-60,"Chunkdat:"..bit.tohex(CurrentChunkvAddr))
---debug gui.text (50,-50,"Pointer:"..bit.tohex(CurrentChunkpointer))
---debug gui.text (50,-40,"Chunkdat:"..bit.tohex(CurrentChunk))
+--gui.text (50,-60,"Chunkdat:"..bit.tohex(CurrentChunkv))
+gui.text(50,-60,fmt8(CurrentChunkvAddr))
+gui.text (50,-50,"Pointer:"..bit.tohex(CurrentChunkpointer))
+gui.text (50,-40,"Chunkdat:"..bit.tohex(CurrentChunk))
 --32*32 area * 2 bytes
 	if map_centered == true then
 		x_paint = 1
@@ -1362,8 +1332,9 @@ CurrentChunk = memory.readdword(CurrentChunkpointer)
 		--debug gui.text(160,-50,fmt8(collisiontileAddr)) 
 		--debug gui.text(160,-40,fmt8(CurrentChunk+chunktilepos)) 
 		end 
-		
+		if collisiontile then 
 		gui.text((i-x_paint)*16 + 4 + map_box[1],(j-y_paint) * 10 + 3 + map_box[2], fmt2(collisiontile), color)
+		end 
 			end 
 	end 
 	end 
@@ -1400,6 +1371,32 @@ if jump > 65535 then
 jump = 1
 end 
 end 
+
+if check_key("C") then 
+collisionediting = true 
+chunkediting = true 
+if key.shift then
+collisionediting = false
+chunkediting = false 
+end
+end 
+
+if collisionediting then 
+if check_key("up") then
+CurrentChunkv = CurrentChunkv + 1
+if CurrentChunkv > 3 then 
+CurrentChunkv = 3
+end
+collisionediting = false 
+elseif check_key("down") then 
+CurrentChunkv = CurrentChunkv -1
+if CurrentChunkv < 0 then 
+CurrentChunkv = 0
+end 
+collisionediting = false 
+end 
+end 
+
 --gui.text(menu_box[1] + 20, menu_box[2] + 78, "curptr" .. bit.tohex(curptrmap),'yellow')
    for i, v in ipairs({0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xA, 0xB, 0xC, 0xD, 0xE, 0xF}) do
       if check_key(string.format("%X", i)) then writemap(v) break end
@@ -1454,6 +1451,10 @@ end
 end 
 end 
 
+function tilefunc()
+currenttile = memory.readbyte(OffsArray[2] + base + 0x3C)
+end 
+
 function fmt8(arg)
     return string.format("%08X", bit.band(4294967295, arg))
 end
@@ -1504,8 +1505,8 @@ function fn()
 	Xpostrackerx = memory.readword(base + OffsArray[1])
 	Ypostrackery = memory.readword(base + OffsArray[1]+0x4)
 	
-	chunkxposo = (XPos[5]) % 32
-	chunkyposo = ((YPos[5]) % 32)*32
+	chunkxposo = (Xpostrackerx) % 32
+	chunkyposo = ((Ypostrackery) % 32)*32
 	chunkxpos = chunkxposo
 	chunkypos = chunkyposo
 	if chunkxposo < 7 then
@@ -1533,8 +1534,8 @@ function fn()
 	telXmov = memory.readword(base + teleportXmov)
 	telYmov = memory.readword(base + teleportYmov)
 	stepamount = memory.readword(base + stepamountAddr)
-	
 	LiveMapId = memory.readword(base +LiveMapIdOffs)
+	tilefunc()
 	flycursorfunc()
 	CollisionMap()
 	showitem()
@@ -1556,7 +1557,11 @@ function fn()
 	Customvalue()
 	demostoptimer()
 
-	
+
+	if check_key("P") then 
+	print(LiveMapId,fmt8(CurrentChunkpointer),fmt8(CurrentChunkpointer-base))
+	memory.writeword(LiveMapIdAddr,LiveMapId+1)
+	end 
 end
 
 gui.register(fn)
