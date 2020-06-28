@@ -11,7 +11,9 @@ Pokemon DP Scripts: https://whoturgled.com/dp_scripts.html
 Files:
 
 What is the Void/Void Guide: ./Files/CompleteVoidGuide.pdf
+WIP new Void Guide: ./Files/Pokemon_Diamond_and_Pearl.pdf
 Tweaking Map: ./Files/beta_tweaking_map.png
+Tweaking Gif: ./Files/tweak.gif
 Mapdata: ./Files/Mapdata_v2.0.docx
 DP Cascading Gif: ./Files/Cascading.gif
 Matrix Map: ./Files/Matrix_map_correspondance.txt
