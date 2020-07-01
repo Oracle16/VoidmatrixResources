@@ -1,0 +1,149 @@
+Steps (from the Union Room wrong warp):
+Register the Town Map as a Key Item (the Town Map will be used to refresh graphics, which will unload models in Fake Sinnoh that block the path)
+100 East
+320 South
+32 East
+191 South
+32 East
+1 South
+32 East
+1 North
+192 East
+Town Map
+
+65 South
+96 East
+1 North
+128 West
+Town Map
+ 
+8 West
+14 North
+Use Explorer Kit (Press B when the “save the game?” text box appears)
+56 West
+Town Map
+
+1 West
+47 South
+1 North
+32 East
+Town Map
+
+1 East
+1 South (Pal Park cutscene if you’ve never been to Pal Park before)
+32 North
+Town Map
+
+32 North
+63 East (64 East if you've been to Pal Park before)
+Town Map
+North until countdown
+
+1 South
+96 West
+97 North
+1 West
+1 East (Cynthia cutscene)
+Lose battle
+
+Take some strong Pokémon from the PC Box
+ 
+Enter the top floor of the Pokémon Center
+4 West
+13 North
+Refresh graphics
+2 North
+11 East
+Refresh graphics
+Full speed south
+Refresh graphics
+2 South
+3 West
+Talk to NPC and reset the game when you enter the Union Room
+ 
+Refresh graphics
+1 South
+
+1 South
+243 East
+332 North
+RETIRE
+
+479 North
+259 East
+64 North
+
+
+Here you have two options, you can catch ONE Arceus in the Hall of Origin, or catch an infinite amount in the northern Jubilife City map ID.
+
+
+Option 1: HoO Arceus
+RETIRE
+If you have to run away from the fight, follow these steps to re-encounter Arceus:
+1 North
+3 South
+RETIRE (repeat until you capture an Arceus)
+
+
+Option 2: Jubilife Arceus
+1 North
+RETIRE
+If you capture OR runaway from Arceus, follow these steps to re-encounter it.
+2 South (repeat until you have captured as many as you want)
+
+Once you are done with either option:
+64 North
+RETIRE
+
+Fly or Teleport from Route 221
+Arceus wrong warp:
+
+Steps (from the Union Room wrong warp):
+125 West
+64 South (Use Bicycle)
+96 West
+160 South
+480 West
+320 South
+64 West
+
+64 South
+143 East
+32 South (Pal Park cutscene if you’ve never been to Pal Park before)
+
+63 East (64 East if you've been to Pal Park before)
+North until countdown
+
+178 East
+66 South
+
+192 East
+65 South
+1 North
+64 East
+64 West
+18 South
+160 West
+64 North
+64 West
+32 North
+115 West
+85 North
+64 East
+61 North
+83 East
+RETIRE
+
+50 West
+227 South
+143 West
+
+64 South
+143 East
+32 South (Pal Park cutscene)
+
+50 East
+North until countdown
+RETIRE
+
+Fly or Teleport from Route 221

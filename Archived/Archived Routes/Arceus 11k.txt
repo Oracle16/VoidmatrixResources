@@ -1,0 +1,64 @@
+Steps (from the Pokétch Co. void):
+1 South
+17 West
+14 North
+574 West
+Save and Reset
+
+2097 South
+19 West
+288 South
+51 East
+352 South
+33 West
+1 East
+64 South
+128 East
+
+14 South
+1 South (Pal Park cutscene if you haven’t been to Pal Park before)
+17 South
+63 East (64 East if you’ve been to Pal Park before) 
+North until countdown
+
+64 North
+467 West
+32 North
+147 East
+50 South
+97 West
+Refresh graphics
+
+82 West
+608 South
+32 East
+11328 South
+19 East
+160 South
+83 West
+512 South
+83 East
+18 North
+RETIRE
+
+32 East
+Refresh graphics
+1 East
+180 West
+204 North
+64 West
+82 North
+Refresh graphics
+
+50 South
+64 West
+64 South
+128 West
+192 South
+128 West
+128 South
+51 East
+15 South
+RETIRE
+
+Fly or Teleport from Route 221

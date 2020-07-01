@@ -1,0 +1,49 @@
+Steps (from the Union Room wrong warp):
+125 West
+64 South (Use Bicycle)
+96 West
+160 South
+480 West
+320 South
+64 West
+
+64 South
+143 East
+32 South (Pal Park cutscene if you’ve never been to Pal Park before)
+
+63 East (64 East if you've been to Pal Park before)
+North until countdown
+
+178 East
+66 South
+
+192 East
+65 South
+1 North
+64 East
+64 West
+18 South
+160 West
+64 North
+64 West
+32 North
+115 West
+85 North
+64 East
+61 North
+83 East
+RETIRE
+
+50 West
+227 South
+143 West
+
+64 South
+143 East
+32 South (Pal Park cutscene)
+
+50 East
+North until countdown
+RETIRE
+
+Fly or Teleport from Route 221

@@ -1,0 +1,63 @@
+Steps (from the Pokétch Co. void):
+1 South
+17 West
+14 North
+2015 West
+512 South
+Save and Reset
+
+32 East
+384 South
+32 West
+
+If you've hacked the Shaymin event into your game and have Seabreak Path on your Town Map, then instead of the 1792 South steps below, you'll have to do these:
+
+1152 South
+32 East
+64 South
+32 West
+576 South
+
+1792 South
+128 West
+32 South
+192 West
+64 South
+160 West
+
+96 South
+96 East
+32 South
+63 East
+1 North
+63 East (64 East if you've already been to Pal Park before)
+North until countdown
+
+192 East
+66 South
+1 North
+
+192 West
+64 North
+64 West
+32 North
+128 West
+64 North
+64 West
+96 North
+226 East
+RETIRE
+
+34 South
+33 West
+128 South
+160 West
+160 South
+160 East
+31 South
+1 South (Pal Park cutscene)
+64 East
+North until countdown
+RETIRE
+
+Fly or Teleport from Route 221

@@ -1,0 +1,41 @@
+Arceus 73k 3:
+
+Steps (from the Pokétch Co. void):
+1 South
+17 West
+14 North
+895 West
+510 South
+Save and Reset
+
+128 West
+32 North
+992 West
+73000 North
+Clear step counter
+502 North
+
+Alternate 1 North and 1 South until the second Hall of Origin is reached (DO NOT reset the step counter during this part - the step counter will read 512 by the end. You will know you’re in the second Hall of Origin if you hear the Spear Pillar music.)
+
+Refresh graphics
+251 South
+Clear step counter
+North until countdown (The step counter will read 251, as the last step isn’t registered)
+
+2816 South
+288 West
+RETIRE
+
+If you're only going for one Arceus:
+2 South, and then proceed through the rest of the steps
+
+If you're going for more than one Arceus via the Jubilife Arceus method:
+Line back up with the south-eastern corner of the Hall of Origin, and then proceed through the rest of the steps.
+
+288 East
+2565 North
+Reset step counter
+252 North
+RETIRE
+
+Fly or Teleport from Route 221
