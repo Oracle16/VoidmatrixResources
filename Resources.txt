@@ -11,12 +11,19 @@ Pokemon DP Scripts: https://whoturgled.com/dp_scripts.html
 Files:
 
 What is the Void/Void Guide: ./Files/CompleteVoidGuide.pdf
+WIP new Void Guide: ./Files/Pokemon_Diamond_and_Pearl.pdf
 Tweaking Map: ./Files/beta_tweaking_map.png
+Tweaking Gif: ./Files/tweak.gif
 Mapdata: ./Files/Mapdata_v2.0.docx
 DP Cascading Gif: ./Files/Cascading.gif
-RSFDCollision3 (Void.lua, need to get latest version of script from RETIRE): ./Files/Working-Copy.lua
+Matrix Map: ./Files/Matrix_map_correspondance.txt
+RSFDCollision3: ./Files/RSFDCollision3.lua
+Gen 4 RNG Script: ./Files/ultimateRNG.lua
+Void lua: ./Files/void.lua
+Better Void lua: ./Files/map7.lua
 Lua51 (x64) (64 bit version for Desmume lua scripts, rename the file to lua51): ./Files/lua51 (x64).dll
 Lua51 (x86) (32 bit version for Desmume lua scripts, rename the file to lua51): ./Files/lua51 (x86).dll
+ASC: ./Files/Arbitrary_Script_Calling_wip.pdf
 
 
 YouTube Channels:
