@@ -1,0 +1,26 @@
+Darkrai wrong warp Sep 2018:
+
+Steps (from the Union Room wrong warp):
+36 East
+260 South
+70 West
+60 South
+27 West
+32 East 
+32 North
+Save and Reset
+
+IMPORTANT SIDENOTE: Your step counter DOES NOT work in the Battle Tower void, you will have to count some steps yourself
+
+1 North
+2 East
+North until invisible wall
+5 South
+Change your Pokétch app to the Berry Finder/Marking Map
+
+Move East until your marker on the map is above Iron Island
+1 West repeatedly until you're above Iron Island on your map
+11 East
+Save and Reset
+
+Fly from Canalave City or Teleport from Route 218

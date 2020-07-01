@@ -1,0 +1,24 @@
+Mesprit wrong warp:
+
+Steps (from the Union Room wrong warp):
+36 East
+96 South (Use Bicycle)
+256 South
+97 West
+1 North
+129 East
+353 South
+161 West
+96 South
+128 West
+Refresh graphics
+Save and Reset
+
+801 North
+274 East
+Refresh graphics
+South until invisible wall
+Refresh graphics
+1 South
+
+Fly or Teleport from Lake Verity

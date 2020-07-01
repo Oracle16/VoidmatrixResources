@@ -1,0 +1,21 @@
+Azelf wrong warp:
+
+Steps (from the Union Room wrong warp):
+36 East
+96 South (Use Bicycle)
+256 South
+97 West
+1 North
+129 East
+545 South
+98 West
+Refresh graphics
+Save and Reset
+
+897 North
+83 East
+South until invisible wall
+Refresh graphics
+1 South
+
+Fly or Teleport from Lake Valor

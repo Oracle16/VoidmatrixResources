@@ -1,0 +1,32 @@
+Steps (from the Pokétch Co. void):
+1 South
+17 West
+14 North
+574 West
+Save and Reset
+
+2097 South
+83 West
+480 South
+192 West
+18 North
+147 East
+18 South
+333 East
+288 South
+64 East
+Save and Reset
+
+2802 North
+240 East
+64 North
+Refresh graphics
+32 East
+Refresh graphics
+44 East
+Refresh graphics
+South until invisible wall
+Refresh graphics
+1 South
+
+Fly or Teleport from Lake Acuity

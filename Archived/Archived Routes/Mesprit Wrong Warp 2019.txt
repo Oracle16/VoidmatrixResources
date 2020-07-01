@@ -1,0 +1,22 @@
+Mesprit wrong warp 2019:
+
+Steps (from the Union Room wrong warp):
+36 East
+319 South
+70 West
+60 South
+27 West
+1 North
+321 South
+161 West
+160 South
+Save and Reset
+
+801 North
+271 East
+Refresh graphics
+1 South
+Refresh graphics
+1 South
+
+Fly or Teleport from Lake Verity

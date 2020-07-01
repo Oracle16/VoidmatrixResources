@@ -1,0 +1,35 @@
+Azelf Feb 2017:
+
+Steps (from the Pokétch Co. void):
+1 South
+17 West
+14 North
+574 West
+Save and Reset
+
+2097 South
+19 West
+288 South
+51 East
+352 South
+33 West
+1 East
+64 South
+128 East
+64 North
+257 East
+Save and Reset
+
+2674 North
+124 East
+64 North
+Refresh graphics
+32 East
+Refresh graphics
+44 East
+Refresh graphics
+South until invisible wall
+Refresh graphics
+1 South
+
+Fly or Teleport from Lake Valor
